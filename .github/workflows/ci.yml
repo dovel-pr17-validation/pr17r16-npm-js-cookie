@@ -61,7 +61,7 @@ jobs:
       - name: Set up BrowserStack env
         # Third-party action, pin to commit SHA!
         # See https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions
-        uses: browserstack/github-actions/setup-env@00ce173eae311a7838f80682a5fad5144c4219ad
+        uses: browserstack/github-actions/setup-env@e1ceb209003b8bf050dac07c9038347259fed39c
         with:
           username: ${{ secrets.BROWSERSTACK_USERNAME }}
           access-key: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
