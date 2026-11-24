@@ -70,7 +70,7 @@ jobs:
       - name: Set up BrowserStack local tunnel
         # Third-party action, pin to commit SHA!
         # See https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions
-        uses: browserstack/github-actions/setup-local@00ce173eae311a7838f80682a5fad5144c4219ad
+        uses: browserstack/github-actions/setup-local@e1ceb209003b8bf050dac07c9038347259fed39c
         with:
           local-testing: start
           local-identifier: random
@@ -89,6 +89,6 @@ jobs:
       - name: Stop BrowserStackLocal
         # Third-party action, pin to commit SHA!
         # See https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions
-        uses: browserstack/github-actions/setup-local@00ce173eae311a7838f80682a5fad5144c4219ad
+        uses: browserstack/github-actions/setup-local@e1ceb209003b8bf050dac07c9038347259fed39c
         with:
           local-testing: stop
